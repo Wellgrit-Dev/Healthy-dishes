@@ -8,3 +8,112 @@ body {
     font-weight: 300;
     font-style: normal;
 }
+
+nav {
+    background-color: #e6ffe6;
+    padding: 10px;
+}
+
+nav a {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+nav img{
+    width: 100px;
+}
+
+.container {
+    background-color: #f2f9f3;
+    padding: 100px 0 100px 200px;    
+}
+
+#email-text {
+    padding: 0 0 0 5px;
+}
+
+#email {
+    margin: 0 0 20px 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#email[type="email"] {
+    padding-left: 20px;
+}
+
+#password-text {
+    margin: 0 0 0 5px;
+}
+
+#password {
+    margin: 0 0 40px 0;
+    border-radius: 10px;
+    border-style: none;
+    width: 400px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#password[type="password"] {
+    padding-left: 20px;
+}
+
+#btn-login {
+    border-style: none;
+    border-radius: 15px;
+    width: 400px;
+    height: 40px;
+    background-color: #00e778;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#forgot-password {
+    margin: 0 0 0 150px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#btn-register {
+    border-style: none;
+    border-radius: 15px;
+    width: 400px;
+    height: 40px;
+    background-color: #00e778;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container img {
+    width: 350px;
+    border-radius: 15px;
+    position: relative;
+    top: -40px;
+    right: 180px;
+    float: right;
+
+}
+
+footer {
+    background-color: #f8f8f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer hr {
+    width: 60%;
+    position: relative;
+    left: 250px;
+}
+
+footer p {
+    background-color: #f8f8f7;
+}
