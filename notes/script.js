@@ -145,3 +145,14 @@ function deleteNote(noteId) {
 }
 
 displayNotes();
+
+
+/** Pindah page */
+
+function register() {
+    window.open('register.html', '_blank');
+}
+
+function login () {
+    window.open('login.html', '_blank');
+}
