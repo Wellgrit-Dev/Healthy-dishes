@@ -156,3 +156,11 @@ function register() {
 function login () {
     window.open('login.html', '_blank');
 }
+
+function account() {
+    window.open('account.html', '_blank');
+}
+
+function home() {
+    window.open('index.html', '_blank');
+}
