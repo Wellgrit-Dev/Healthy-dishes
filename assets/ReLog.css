@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav {
+    background-color: #e6ffe6;
+    padding: 10px;
+}
+
+nav a {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+nav img{
+    width: 100px;
+}
+
+.container {
+    background-color: #f2f9f3;
+    padding: 100px 0 100px 200px;
+    position: relative;  
+}
+
+.container h2 {
+    margin: -40px 0 40px 0;
+}
+
+.container img {
+    width: 350px;
+    border-radius: 15px;
+    position: absolute;
+    top: 40px;
+    right: 180px;
+    float: right;
+}
+
+#name-text {
+    padding: 0 0 0 5px;
+}
+
+#name {
+    margin: 0 0 20px 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#name[type="text"] {
+    padding-left: 20px;
+}
+
+#email-text {
+    padding: 0 0 0 5px;
+}
+
+#email {
+    margin: 0 0 20px 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#email[type="email"] {
+    padding-left: 20px;
+}
+
+#password-text {
+    margin: 0 0 0 5px;
+}
+
+#password {
+    margin: 0 0 40px 0;
+    border-radius: 10px;
+    border-style: none;
+    width: 400px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#password[type="password"] {
+    padding-left: 20px;
+}
+
+#btn-login {
+    border-style: none;
+    border-radius: 15px;
+    width: 400px;
+    height: 40px;
+    background-color: #00e778;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#forgot-password {
+    margin: 0 0 0 150px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#have-account {
+    margin: 0 0 0 130px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#btn-register {
+    border-style: none;
+    border-radius: 15px;
+    width: 400px;
+    height: 40px;
+    background-color: #00e778;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f8f8f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer hr {
+    width: 60%;
+    position: relative;
+    left: 250px;
+}
+
+footer p {
+    background-color: #f8f8f7;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    nav {
+        background-color: #e6ffe6;
+        padding: 0;
+        width: 100%;
+        height: 12vh;
+        margin: 0 auto;
+    }
+    
+    nav a {
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    
+    nav img{
+        width: 100px;
+    }
+
+    .container {
+        height: 70vh;
+        width: 100%;
+        padding: 40px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .container h2 {
+        margin: 20px auto;
+    }
+
+    .container img {
+        display: none;
+    }
+
+    #have-account {
+        margin: 0 auto;
+    }
+    
+    #forgot-password {
+        margin: 0;
+    }
+
+    footer {
+        background-color: #f8f8f7;
+        padding: 50px 0;
+        height: 0vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer hr {
+        margin: auto auto;
+        width: 80%;
+        left: 0;
+    }
+    
+    footer p {
+        background-color: #f8f8f7;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    nav {
+        background-color: #e6ffe6;
+        height: 10vh;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    nav a {
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    
+    nav img{
+        width: 20%;
+    }
+
+    .container {
+        width: 100%;
+        height: 60vh;
+        padding: 40px 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #name-text, #email-text, #password-text, #name, #email, #password, #btn-login, #forgot-password, #btn-register {
+        width: 80%;
+    }
+
+    .container h2 {
+        margin: 20px auto;
+    }
+
+    .container img {
+        display: none;
+    }
+
+    #have-account {
+        margin: 0 auto;
+    }
+    
+    #forgot-password {
+        margin: 0;
+    }
+
+    footer {
+        background-color: #f8f8f7;
+        padding: 50px 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer hr {
+        margin: auto auto;
+        width: 80%;
+        left: 0;
+    }
+    
+    footer p {
+        background-color: #f8f8f7;
+    }
+}

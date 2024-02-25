@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav {
+    background-color: #e6ffe6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+nav img {
+        width: 100px;
+}
+
+nav button {
+    float: right;
+    width: 100px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #039908;
+    color: #fff;
+    margin: 20px 30px 0 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav button:hover {
+    transform: scale(1.1);
+}
+
+.container {
+    padding: 120px 120px;
+}
+
+.container-id {
+    background-color: #e6fee7;
+    border-radius: 10px;
+    margin: 20px 400px;
+    position: relative;
+    left: 450px;
+    bottom: 20px;
+}
+
+.container-id h4 {
+    text-align: center;
+}
+
+.container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9f8;
+    border-radius: 20px;
+    padding: 50px 20px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#name-text {
+    padding: 0 650px 0 0;
+}
+
+#name[type="name"]{
+    padding-left: 20px;
+}
+
+#name {
+    margin: 0 0 20px 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 700px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#password-text {
+    margin: 0 625px 0 0;
+}
+
+#password[type="password"] {
+    padding-left: 20px;
+}
+
+#password {
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    border-style: none;
+    width: 700px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+#email-text {
+    padding: 0 655px 0 0;
+}
+
+#email[type="email"] {
+    padding-left: 20px;
+}
+
+#email {
+    margin: 0 0 20px 0;
+    border-style: none;
+    border-radius: 10px;
+    width: 700px;
+    height: 50px;
+    -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+}
+
+form button {
+    width: 300px;
+    height: 50px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #039908;
+    color: #fff;
+    margin: 200px 30px 0 0;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+form button:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    nav {
+        background-color: #e6ffe6;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    nav a {
+        margin-left: 40px;
+        cursor: pointer;
+    }
+    
+    nav img{
+        width: 30%;
+    }
+
+    nav button {
+    margin: 30px 60px 0 0;
+    }
+
+    .container {
+    padding: 120px 120px;
+    }
+
+    .container-id {
+        background-color: #e6fee7;
+        border-radius: 10px;
+        margin: 20px 40%;
+        left: 50%;
+        bottom: 20px;
+    }
+
+    .container-id h4 {
+        text-align: center;
+    }
+
+    .container h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    form {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f8f9f8;
+        border-radius: 20px;
+        padding: 50px 20px;
+        -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+        -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+        box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    }
+
+    #name-text {
+        padding: 0;
+    }
+
+    #name[type="name"]{
+        padding-left: 20px; 
+    }
+
+    #name {
+        margin: 0 0 20px 0;
+        width: 90%;
+    }
+
+    #password-text {
+        margin: 0;
+    }
+
+    #password[type="password"] {
+        padding-left: 20px;
+    }
+
+    #password {
+        margin: 0 0 20px 0;
+        width: 90%;
+    }
+
+    #email-text {
+        padding: 0;
+    }
+
+    #email[type="email"] {
+        padding-left: 20px;
+    }
+
+    #email {
+        margin: 0 0 20px 0;
+        width: 90%;
+    }
+
+    form button {
+        width: 90%;
+        height: 50px;
+        border-style: none;
+        border-radius: 10px;
+        background-color: #039908;
+        color: #fff;
+        margin: 200px 30px 0 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        background-color: #e6ffe6;
+        padding: 0;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    nav a {
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    
+    nav img{
+        width: 40%;
+    }
+
+    nav button {
+        margin: 30px 30px 0 0;
+    }
+
+    .container {
+        padding: 100px 5px;
+    }
+    
+    .container-id {
+        background-color: #e6fee7;
+        border-radius: 10px;
+        margin: 20px 30%;
+        left: 30%;
+        bottom: 20px;
+    }
+    
+    .container-id h4 {
+        text-align: center;
+    }
+    
+    .container h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f8f9f8;
+        border-radius: 20px;
+        padding: 50px 20px;
+        -webkit-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+        -moz-box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+        box-shadow: 1px 3px 22px -10px rgba(0,0,0,0.41);
+    }
+    
+    #name-text {
+        padding: 0;
+    }
+    
+    #name[type="name"]{
+        padding-left: 20px; 
+    }
+    
+    #name {
+        margin: 0 0 20px 0;
+        width: 80%;
+    }
+    
+    #password-text {
+        margin: 0;
+    }
+    
+    #password[type="password"] {
+        padding-left: 20px;
+    }
+    
+    #password {
+        margin: 0 0 20px 0;
+        width: 80%;
+    }
+    
+    #email-text {
+        padding: 0;
+    }
+    
+    #email[type="email"] {
+        padding-left: 20px;
+    }
+    
+    #email {
+        margin: 0 0 20px 0;
+        width: 80%;
+    }
+    
+    form button {
+        width: 90%;
+        height: 50px;
+        border-style: none;
+        border-radius: 10px;
+        background-color: #039908;
+        color: #fff;
+        margin: 200px 30px 0 0;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+} 
+
